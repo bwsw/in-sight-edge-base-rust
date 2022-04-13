@@ -1,4 +1,4 @@
-FROM rust:1.59-bullseye
+FROM rust:1.60-bullseye
 
 RUN rustup component add rustfmt
 RUN apt-get update && apt-get -y install \
