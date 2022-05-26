@@ -1,2 +1,3 @@
-# in-sight-edge-base-rust
-Base Edge Rust Image for In-Sight Edge
+# Base Rust Container Image for Edge Modules
+
+Rust version: 1.61
