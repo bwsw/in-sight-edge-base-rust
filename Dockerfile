@@ -33,4 +33,6 @@ RUN apt-get update && apt-get -y install \
     wget \
     yasm \
     zlib1g-dev \
-    openssl
+    openssl \
+    libsasl2-dev \
+    libsasl2-2
