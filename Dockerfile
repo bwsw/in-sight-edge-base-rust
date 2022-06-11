@@ -1,6 +1,7 @@
 FROM rust:1.61-bullseye
 
 RUN rustup component add rustfmt
+RUN cargo install cargo-chef --locked
 RUN apt-get update && apt-get -y install \
     liboping0 \
     liboping-dev \
