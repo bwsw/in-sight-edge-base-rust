@@ -1,4 +1,4 @@
-FROM rust:1.61-bullseye
+FROM rust:1.62-bullseye
 
 RUN rustup component add rustfmt
 RUN cargo install cargo-chef --locked
