@@ -1,3 +1,3 @@
 # Base Rust Container Image for InSight Modules
 
-Rust version: 1.62
+Rust version: 1.63
